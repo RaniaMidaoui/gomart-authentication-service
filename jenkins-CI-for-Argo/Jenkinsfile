@@ -9,11 +9,7 @@ pipeline {
       NETWORK="tools_jenkins"
       SONARQUBE_URL="http://sonarqube:9000"
       PROJECT_KEY="gomart-microservice"
-      REGISTRY_CRED = 'docker_token'
-    }
-
-    tools {
-      go 'go_120'
+      REGISTRY_CRED = 'docker_creds'
     }
 
     agent any
