@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/models"
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/utils"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/models"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/utils"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

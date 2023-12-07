@@ -5,11 +5,11 @@ import (
 	"log"
 	"net"
 
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/config"
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/db"
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/pb"
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/services"
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/utils"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/config"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/db"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/pb"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/services"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/utils"
 	"google.golang.org/grpc"
 )
 

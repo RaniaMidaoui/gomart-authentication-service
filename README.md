@@ -1,4 +1,4 @@
-# goMart-authentication-service
+# gomart-authentication-service
 This repository contains the code and Dockerfile for the authentication microservice of the **goMart** application, along with the Jenkinsfile describing the CI/CD pipeline for the microservice.
 
 To run the code, you need to have Golang package installed:
@@ -27,7 +27,7 @@ $ go mod tidy
 $ make proto
 $ make server
 ```
-To test the microservice, the [API Gateway](https://github.com/RaniaMidaoui/goMart-gateway) must be running in order to redirect the request to the authentication microservice:
+To test the microservice, the [API Gateway](https://github.com/RaniaMidaoui/gomart-gateway) must be running in order to redirect the request to the authentication microservice:
 ```
 #Register test user
 echo "-------------> Registering new user ..."

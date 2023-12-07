@@ -1,4 +1,4 @@
-module github.com/RaniaMidaoui/goMart-authentication-service
+module github.com/RaniaMidaoui/gomart-authentication-service
 
 go 1.20
 

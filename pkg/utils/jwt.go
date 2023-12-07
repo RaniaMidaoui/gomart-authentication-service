@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/models"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/models"
 	"github.com/golang-jwt/jwt"
 )
 

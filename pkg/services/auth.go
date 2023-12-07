@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/db"
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/models"
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/pb"
-	"github.com/RaniaMidaoui/goMart-authentication-service/pkg/utils"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/db"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/models"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/pb"
+	"github.com/RaniaMidaoui/gomart-authentication-service/pkg/utils"
 )
 
 type Server struct {
