@@ -34,7 +34,7 @@ func main() {
 		log.Fatalln("Failed to listing:", err)
 	}
 
-	fmt.Println("Argo Demo!!")
+	fmt.Println("Mini Project DevOps!!")
 	fmt.Println("Auth Svc on", c.Port)
 
 	s := services.Server{
